@@ -1,0 +1,47 @@
+/* *{
+    border: 1px solid black;
+    box-sizing: border-box;
+} */
+
+.FilterMultiComboBox{
+    /* border: none !important; */
+}
+
+
+.customSortNone::after {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQogICAgPHBhdGggZD0iTTkuMDM3IDkuNTE3IDEyIDUuOWwyLjk2MyAzLjYxN0g5LjAzN1ptLTIuMTE3LjI2N2MtLjM5NS40ODMtLjA1OCAxLjIxNi41NiAxLjIxNmg5LjA0Yy42MTggMCAuOTU1LS43MzMuNTYtMS4yMTZsLTQuNTItNS41MTdhLjcyMS43MjEgMCAwIDAtMS4xMiAwTDYuOTIgOS43ODNaTTEyIDE4LjFsMi45NjMtMy42MTdIOS4wMzdMMTIgMTguMVptLTUuMDgtMy44ODRDNi41MjUgMTMuNzMzIDYuODYyIDEzIDcuNDggMTNoOS4wNGMuNjE4IDAgLjk1NS43MzMuNTYgMS4yMTZsLTQuNTIgNS41MTdhLjcyMS43MjEgMCAwIDEtMS4xMiAwbC00LjUyLTUuNTE3WiI+PC9wYXRoPg0KPC9zdmc+');
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    content: "";
+    background-size: 20px 20px!important;
+    margin-left: 5px;
+    opacity : 0.7;
+    vertical-align: -5px;
+}
+
+.customSortAsc::after {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQogICAgPHBhdGggZD0iTTYuOTIgOS43ODRjLS4zOTUuNDgzLS4wNTggMS4yMTYuNTYgMS4yMTZoOS4wNGMuNjE4IDAgLjk1NS0uNzMzLjU2LTEuMjE2bC00LjUyLTUuNTE3YS43MjEuNzIxIDAgMCAwLTEuMTIgMEw2LjkyIDkuNzgzWk0xMiAxOC4xbDIuOTYzLTMuNjE3SDkuMDM3TDEyIDE4LjFabS01LjA4LTMuODg0QzYuNTI1IDEzLjczMyA2Ljg2MiAxMyA3LjQ4IDEzaDkuMDRjLjYxOCAwIC45NTUuNzMzLjU2IDEuMjE2bC00LjUyIDUuNTE3YS43MjEuNzIxIDAgMCAxLTEuMTIgMGwtNC41Mi01LjUxN1oiPjwvcGF0aD4NCjwvc3ZnPg==');
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    content: "";
+    background-size: 20px 20px!important;
+    margin-left: 5px;
+    opacity : 0.7;
+    vertical-align: -5px;
+}
+
+.customSortDesc::after {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQogICAgPHBhdGggZD0iTTkuMDM3IDkuNTE3IDEyIDUuOWwyLjk2MyAzLjYxN0g5LjAzN1ptLTIuMTE3LjI2N2MtLjM5NS40ODMtLjA1OCAxLjIxNi41NiAxLjIxNmg5LjA0Yy42MTggMCAuOTU1LS43MzMuNTYtMS4yMTZsLTQuNTItNS41MTdhLjcyMS43MjEgMCAwIDAtMS4xMiAwTDYuOTIgOS43ODNabTAgNC40MzJDNi41MjUgMTMuNzMzIDYuODYyIDEzIDcuNDggMTNoOS4wNGMuNjE4IDAgLjk1NS43MzMuNTYgMS4yMTZsLTQuNTIgNS41MTdhLjcyMS43MjEgMCAwIDEtMS4xMiAwbC00LjUyLTUuNTE3WiI+PC9wYXRoPg0KPC9zdmc+');
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    content: "";
+    background-size: 20px 20px!important;
+    margin-left: 5px;
+    opacity : 0.7;
+    vertical-align: -5px;
+}
+
+

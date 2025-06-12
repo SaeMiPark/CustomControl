@@ -1,0 +1,51 @@
+<mvc:View controllerName="controls.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:custom="controls.src">
+    <Page id="page" title="{i18n>title}" showHeader="false">
+        <VBox width="100%" class="filterBox">
+            <custom:FilterMultiComboBox prefixTableId="container-controls---View1--TestTable">
+            </custom:FilterMultiComboBox>
+        </VBox>
+        <VBox>
+            <Table id="TestTable"
+                mode="MultiSelect"
+                sticky="HeaderToolbar,ColumnHeaders"
+                items="{TableModel>/value}">
+                <headerToolbar>
+                    <Toolbar>
+                        <Title text="Sales Quote ({= ${TableModel>/value}.length})"/>
+                    </Toolbar>
+                </headerToolbar>
+                <columns>
+                    <custom:SortFilterColumn sortProperty="displayId" >
+                        <Text text="ID"/>
+                    </custom:SortFilterColumn>
+                    <Column >
+                        <Text text="Name"/>
+                    </Column>
+                    <Column >
+                        <Text text="Account"/>
+                    </Column>
+                    <custom:SortFilterColumn filterProperty="owner/partyName">
+                        <Text text="Owner"/>
+                    </custom:SortFilterColumn>
+                    <custom:SortFilterColumn filterProperty="documentTypeDescription">
+                        <Text text="Document Type"/>
+                    </custom:SortFilterColumn>
+                </columns>
+                <items>
+                    <ColumnListItem>
+                        <Link text="{TableModel>displayId}"/>
+                        <Input value="{TableModel>name}" />
+                        <Link text="{TableModel>account/partyName}" />
+                        <Input value="{TableModel>owner/partyName}" />
+                        <Text text="{TableModel>documentTypeDescription}"/>
+                    </ColumnListItem>
+                </items>
+            
+            </Table>
+
+        </VBox>
+    </Page>
+</mvc:View>
