@@ -17,10 +17,10 @@
             "adminData": {
                 "createdOn": "2025-03-28T05:53:39.986Z",
                 "createdBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "createdByName": "HYEONHEE KANG",
+                "createdByName": "PARK SAE MI",
                 "updatedOn": "2025-04-01T07:29:50.851Z",
                 "updatedBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "updatedByName": "HYEONHEE KANG"
+                "updatedByName": "PARK SAE MI"
             },
             "account": {
                 "partyId": "11eff8be-3787-93be-afdb-812611020a00",
@@ -46,12 +46,12 @@
                 "type": "167",
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "formattedAddress": [
-                    "HYEONHEE KANG"
+                    "PARK SAE MI"
                 ],
                 "formattedPostalAddress": "KR",
                 "determinationMethod": "7",
                 "determinationMethodDescription": "Provided by business partner relationship",
-                "partyName": "HYEONHEE KANG",
+                "partyName": "PARK SAE MI",
                 "phoneFormattedNumber": "",
                 "mobileFormattedNumber": "+82 1052899251",
                 "email": "hyeonhee.kang@jmckor.com"
@@ -71,7 +71,7 @@
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "determinationMethod": "7",
                 "determinationMethodDescription": "Provided by business partner relationship",
-                "partyName": "HYEONHEE KANG"
+                "partyName": "PARK SAE MI"
             },
             "parties": [
                 {
@@ -118,12 +118,12 @@
                     "type": "167",
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "formattedAddress": [
-                        "HYEONHEE KANG"
+                        "PARK SAE MI"
                     ],
                     "formattedPostalAddress": "KR",
                     "determinationMethod": "7",
                     "determinationMethodDescription": "Provided by business partner relationship",
-                    "partyName": "HYEONHEE KANG",
+                    "partyName": "PARK SAE MI",
                     "phoneFormattedNumber": "",
                     "mobileFormattedNumber": "+82 1052899251",
                     "email": "hyeonhee.kang@jmckor.com"
@@ -139,7 +139,7 @@
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "determinationMethod": "7",
                     "determinationMethodDescription": "Provided by business partner relationship",
-                    "partyName": "HYEONHEE KANG"
+                    "partyName": "PARK SAE MI"
                 }
             ],
             "totalValues": {},
@@ -167,10 +167,10 @@
             "adminData": {
                 "createdOn": "2025-03-28T06:11:52.590Z",
                 "createdBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "createdByName": "HYEONHEE KANG",
+                "createdByName": "PARK SAE MI",
                 "updatedOn": "2025-04-02T01:08:56.029Z",
                 "updatedBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "updatedByName": "HYEONHEE KANG"
+                "updatedByName": "PARK SAE MI"
             },
             "account": {
                 "partyId": "11eff8c5-1e58-43be-afdb-812611020a00",
@@ -187,12 +187,12 @@
                 "type": "167",
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "formattedAddress": [
-                    "HYEONHEE KANG"
+                    "PARK SAE MI"
                 ],
                 "formattedPostalAddress": "KR",
                 "determinationMethod": "3",
                 "determinationMethodDescription": "Provided by logon user data",
-                "partyName": "HYEONHEE KANG",
+                "partyName": "PARK SAE MI",
                 "phoneFormattedNumber": "",
                 "mobileFormattedNumber": "+82 1052899251",
                 "email": "hyeonhee.kang@jmckor.com"
@@ -204,7 +204,7 @@
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "determinationMethod": "3",
                 "determinationMethodDescription": "Provided by logon user data",
-                "partyName": "HYEONHEE KANG"
+                "partyName": "PARK SAE MI"
             },
             "parties": [
                 {
@@ -230,12 +230,12 @@
                     "type": "167",
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "formattedAddress": [
-                        "HYEONHEE KANG"
+                        "PARK SAE MI"
                     ],
                     "formattedPostalAddress": "KR",
                     "determinationMethod": "3",
                     "determinationMethodDescription": "Provided by logon user data",
-                    "partyName": "HYEONHEE KANG",
+                    "partyName": "PARK SAE MI",
                     "phoneFormattedNumber": "",
                     "mobileFormattedNumber": "+82 1052899251",
                     "email": "hyeonhee.kang@jmckor.com"
@@ -251,7 +251,7 @@
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "determinationMethod": "3",
                     "determinationMethodDescription": "Provided by logon user data",
-                    "partyName": "HYEONHEE KANG"
+                    "partyName": "PARK SAE MI"
                 }
             ],
             "totalValues": {},
@@ -279,10 +279,10 @@
             "adminData": {
                 "createdOn": "2025-03-27T03:15:11.467Z",
                 "createdBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "createdByName": "HYEONHEE KANG",
+                "createdByName": "PARK SAE MI",
                 "updatedOn": "2025-04-02T01:40:31.844Z",
                 "updatedBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "updatedByName": "HYEONHEE KANG"
+                "updatedByName": "PARK SAE MI"
             },
             "account": {
                 "partyId": "11ef8d05-a4cb-40ee-afdb-81d830020a00",
@@ -333,12 +333,12 @@
                 "type": "167",
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "formattedAddress": [
-                    "HYEONHEE KANG"
+                    "PARK SAE MI"
                 ],
                 "formattedPostalAddress": "KR",
                 "determinationMethod": "7",
                 "determinationMethodDescription": "Provided by business partner relationship",
-                "partyName": "HYEONHEE KANG",
+                "partyName": "PARK SAE MI",
                 "phoneFormattedNumber": "",
                 "mobileFormattedNumber": "+82 1052899251",
                 "email": "hyeonhee.kang@jmckor.com"
@@ -358,7 +358,7 @@
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "determinationMethod": "3",
                 "determinationMethodDescription": "Provided by logon user data",
-                "partyName": "HYEONHEE KANG"
+                "partyName": "PARK SAE MI"
             },
             "salesUnit": {
                 "partyId": "11ef8f74-a396-072e-afdb-81d830020a00",
@@ -453,12 +453,12 @@
                     "type": "167",
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "formattedAddress": [
-                        "HYEONHEE KANG"
+                        "PARK SAE MI"
                     ],
                     "formattedPostalAddress": "KR",
                     "determinationMethod": "7",
                     "determinationMethodDescription": "Provided by business partner relationship",
-                    "partyName": "HYEONHEE KANG",
+                    "partyName": "PARK SAE MI",
                     "phoneFormattedNumber": "",
                     "mobileFormattedNumber": "+82 1052899251",
                     "email": "hyeonhee.kang@jmckor.com"
@@ -500,7 +500,7 @@
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "determinationMethod": "3",
                     "determinationMethodDescription": "Provided by logon user data",
-                    "partyName": "HYEONHEE KANG"
+                    "partyName": "PARK SAE MI"
                 }
             ],
             "totalValues": {
@@ -541,10 +541,10 @@
             "adminData": {
                 "createdOn": "2025-03-27T03:01:53.600Z",
                 "createdBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "createdByName": "HYEONHEE KANG",
+                "createdByName": "PARK SAE MI",
                 "updatedOn": "2025-04-02T01:40:21.604Z",
                 "updatedBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "updatedByName": "HYEONHEE KANG"
+                "updatedByName": "PARK SAE MI"
             },
             "account": {
                 "partyId": "11ef8d05-a4cb-40ee-afdb-81d830020a00",
@@ -595,12 +595,12 @@
                 "type": "167",
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "formattedAddress": [
-                    "HYEONHEE KANG"
+                    "PARK SAE MI"
                 ],
                 "formattedPostalAddress": "KR",
                 "determinationMethod": "7",
                 "determinationMethodDescription": "Provided by business partner relationship",
-                "partyName": "HYEONHEE KANG",
+                "partyName": "PARK SAE MI",
                 "phoneFormattedNumber": "",
                 "mobileFormattedNumber": "+82 1052899251",
                 "email": "hyeonhee.kang@jmckor.com"
@@ -620,7 +620,7 @@
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "determinationMethod": "3",
                 "determinationMethodDescription": "Provided by logon user data",
-                "partyName": "HYEONHEE KANG"
+                "partyName": "PARK SAE MI"
             },
             "salesUnit": {
                 "partyId": "11ef8f74-a396-072e-afdb-81d830020a00",
@@ -715,12 +715,12 @@
                     "type": "167",
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "formattedAddress": [
-                        "HYEONHEE KANG"
+                        "PARK SAE MI"
                     ],
                     "formattedPostalAddress": "KR",
                     "determinationMethod": "7",
                     "determinationMethodDescription": "Provided by business partner relationship",
-                    "partyName": "HYEONHEE KANG",
+                    "partyName": "PARK SAE MI",
                     "phoneFormattedNumber": "",
                     "mobileFormattedNumber": "+82 1052899251",
                     "email": "hyeonhee.kang@jmckor.com"
@@ -762,7 +762,7 @@
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "determinationMethod": "3",
                     "determinationMethodDescription": "Provided by logon user data",
-                    "partyName": "HYEONHEE KANG"
+                    "partyName": "PARK SAE MI"
                 }
             ],
             "totalValues": {
@@ -803,10 +803,10 @@
             "adminData": {
                 "createdOn": "2025-03-27T03:36:55.806Z",
                 "createdBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "createdByName": "HYEONHEE KANG",
+                "createdByName": "PARK SAE MI",
                 "updatedOn": "2025-04-01T08:07:27.742Z",
                 "updatedBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "updatedByName": "HYEONHEE KANG"
+                "updatedByName": "PARK SAE MI"
             },
             "account": {
                 "partyId": "11ef8d05-a4cb-40ee-afdb-81d830020a00",
@@ -857,12 +857,12 @@
                 "type": "167",
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "formattedAddress": [
-                    "HYEONHEE KANG"
+                    "PARK SAE MI"
                 ],
                 "formattedPostalAddress": "KR",
                 "determinationMethod": "7",
                 "determinationMethodDescription": "Provided by business partner relationship",
-                "partyName": "HYEONHEE KANG",
+                "partyName": "PARK SAE MI",
                 "phoneFormattedNumber": "",
                 "mobileFormattedNumber": "+82 1052899251",
                 "email": "hyeonhee.kang@jmckor.com"
@@ -882,7 +882,7 @@
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "determinationMethod": "3",
                 "determinationMethodDescription": "Provided by logon user data",
-                "partyName": "HYEONHEE KANG"
+                "partyName": "PARK SAE MI"
             },
             "salesUnit": {
                 "partyId": "11ef8f74-a396-072e-afdb-81d830020a00",
@@ -926,12 +926,12 @@
                     "type": "167",
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "formattedAddress": [
-                        "HYEONHEE KANG"
+                        "PARK SAE MI"
                     ],
                     "formattedPostalAddress": "KR",
                     "determinationMethod": "7",
                     "determinationMethodDescription": "Provided by business partner relationship",
-                    "partyName": "HYEONHEE KANG",
+                    "partyName": "PARK SAE MI",
                     "phoneFormattedNumber": "",
                     "mobileFormattedNumber": "+82 1052899251",
                     "email": "hyeonhee.kang@jmckor.com"
@@ -1024,7 +1024,7 @@
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "determinationMethod": "3",
                     "determinationMethodDescription": "Provided by logon user data",
-                    "partyName": "HYEONHEE KANG"
+                    "partyName": "PARK SAE MI"
                 }
             ],
             "totalValues": {
@@ -1066,10 +1066,10 @@
             "adminData": {
                 "createdOn": "2025-03-06T01:15:05.442Z",
                 "createdBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "createdByName": "HYEONHEE KANG",
+                "createdByName": "PARK SAE MI",
                 "updatedOn": "2025-03-07T07:56:23.241Z",
                 "updatedBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "updatedByName": "HYEONHEE KANG"
+                "updatedByName": "PARK SAE MI"
             },
             "account": {
                 "partyId": "11ef8d05-a4cb-40ee-afdb-81d830020a00",
@@ -1120,12 +1120,12 @@
                 "type": "167",
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "formattedAddress": [
-                    "HYEONHEE KANG"
+                    "PARK SAE MI"
                 ],
                 "formattedPostalAddress": "KR",
                 "determinationMethod": "1",
                 "determinationMethodDescription": "Provided by an unspecified external source",
-                "partyName": "HYEONHEE KANG",
+                "partyName": "PARK SAE MI",
                 "phoneFormattedNumber": "",
                 "mobileFormattedNumber": "+82 1052899251",
                 "email": "hyeonhee.kang@jmckor.com"
@@ -1145,7 +1145,7 @@
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "determinationMethod": "1",
                 "determinationMethodDescription": "Provided by an unspecified external source",
-                "partyName": "HYEONHEE KANG"
+                "partyName": "PARK SAE MI"
             },
             "salesUnit": {
                 "partyId": "11ef8f74-a396-072e-afdb-81d830020a00",
@@ -1240,12 +1240,12 @@
                     "type": "167",
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "formattedAddress": [
-                        "HYEONHEE KANG"
+                        "PARK SAE MI"
                     ],
                     "formattedPostalAddress": "KR",
                     "determinationMethod": "1",
                     "determinationMethodDescription": "Provided by an unspecified external source",
-                    "partyName": "HYEONHEE KANG",
+                    "partyName": "PARK SAE MI",
                     "phoneFormattedNumber": "",
                     "mobileFormattedNumber": "+82 1052899251",
                     "email": "hyeonhee.kang@jmckor.com"
@@ -1287,7 +1287,7 @@
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "determinationMethod": "1",
                     "determinationMethodDescription": "Provided by an unspecified external source",
-                    "partyName": "HYEONHEE KANG"
+                    "partyName": "PARK SAE MI"
                 }
             ],
             "totalValues": {
@@ -1331,10 +1331,10 @@
             "adminData": {
                 "createdOn": "2025-03-06T02:16:43.276Z",
                 "createdBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "createdByName": "HYEONHEE KANG",
+                "createdByName": "PARK SAE MI",
                 "updatedOn": "2025-04-01T07:58:47.728Z",
                 "updatedBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "updatedByName": "HYEONHEE KANG"
+                "updatedByName": "PARK SAE MI"
             },
             "account": {
                 "partyId": "11ef8d05-a4cb-40ee-afdb-81d830020a00",
@@ -1385,12 +1385,12 @@
                 "type": "167",
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "formattedAddress": [
-                    "HYEONHEE KANG"
+                    "PARK SAE MI"
                 ],
                 "formattedPostalAddress": "KR",
                 "determinationMethod": "7",
                 "determinationMethodDescription": "Provided by business partner relationship",
-                "partyName": "HYEONHEE KANG",
+                "partyName": "PARK SAE MI",
                 "phoneFormattedNumber": "",
                 "mobileFormattedNumber": "+82 1052899251",
                 "email": "hyeonhee.kang@jmckor.com"
@@ -1410,7 +1410,7 @@
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "determinationMethod": "3",
                 "determinationMethodDescription": "Provided by logon user data",
-                "partyName": "HYEONHEE KANG"
+                "partyName": "PARK SAE MI"
             },
             "salesUnit": {
                 "partyId": "11ef8f74-a396-072e-afdb-81d830020a00",
@@ -1505,12 +1505,12 @@
                     "type": "167",
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "formattedAddress": [
-                        "HYEONHEE KANG"
+                        "PARK SAE MI"
                     ],
                     "formattedPostalAddress": "KR",
                     "determinationMethod": "7",
                     "determinationMethodDescription": "Provided by business partner relationship",
-                    "partyName": "HYEONHEE KANG",
+                    "partyName": "PARK SAE MI",
                     "phoneFormattedNumber": "",
                     "mobileFormattedNumber": "+82 1052899251",
                     "email": "hyeonhee.kang@jmckor.com"
@@ -1552,7 +1552,7 @@
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "determinationMethod": "3",
                     "determinationMethodDescription": "Provided by logon user data",
-                    "partyName": "HYEONHEE KANG"
+                    "partyName": "PARK SAE MI"
                 }
             ],
             "totalValues": {
@@ -1590,10 +1590,10 @@
             "adminData": {
                 "createdOn": "2025-03-06T02:18:31.346Z",
                 "createdBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "createdByName": "HYEONHEE KANG",
+                "createdByName": "PARK SAE MI",
                 "updatedOn": "2025-03-06T03:13:53.900Z",
                 "updatedBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "updatedByName": "HYEONHEE KANG"
+                "updatedByName": "PARK SAE MI"
             },
             "account": {
                 "partyId": "11ef8d05-a4cb-40ee-afdb-81d830020a00",
@@ -1644,12 +1644,12 @@
                 "type": "167",
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "formattedAddress": [
-                    "HYEONHEE KANG"
+                    "PARK SAE MI"
                 ],
                 "formattedPostalAddress": "KR",
                 "determinationMethod": "1",
                 "determinationMethodDescription": "Provided by an unspecified external source",
-                "partyName": "HYEONHEE KANG",
+                "partyName": "PARK SAE MI",
                 "phoneFormattedNumber": "",
                 "mobileFormattedNumber": "+82 1052899251",
                 "email": "hyeonhee.kang@jmckor.com"
@@ -1669,7 +1669,7 @@
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "determinationMethod": "1",
                 "determinationMethodDescription": "Provided by an unspecified external source",
-                "partyName": "HYEONHEE KANG"
+                "partyName": "PARK SAE MI"
             },
             "salesUnit": {
                 "partyId": "11ef8f74-a396-072e-afdb-81d830020a00",
@@ -1764,12 +1764,12 @@
                     "type": "167",
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "formattedAddress": [
-                        "HYEONHEE KANG"
+                        "PARK SAE MI"
                     ],
                     "formattedPostalAddress": "KR",
                     "determinationMethod": "1",
                     "determinationMethodDescription": "Provided by an unspecified external source",
-                    "partyName": "HYEONHEE KANG",
+                    "partyName": "PARK SAE MI",
                     "phoneFormattedNumber": "",
                     "mobileFormattedNumber": "+82 1052899251",
                     "email": "hyeonhee.kang@jmckor.com"
@@ -1811,7 +1811,7 @@
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "determinationMethod": "1",
                     "determinationMethodDescription": "Provided by an unspecified external source",
-                    "partyName": "HYEONHEE KANG"
+                    "partyName": "PARK SAE MI"
                 }
             ],
             "totalValues": {
@@ -1855,10 +1855,10 @@
             "adminData": {
                 "createdOn": "2025-03-06T02:19:28.540Z",
                 "createdBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "createdByName": "HYEONHEE KANG",
+                "createdByName": "PARK SAE MI",
                 "updatedOn": "2025-03-06T02:20:26.555Z",
                 "updatedBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "updatedByName": "HYEONHEE KANG"
+                "updatedByName": "PARK SAE MI"
             },
             "account": {
                 "partyId": "11ef8d05-a4cb-40ee-afdb-81d830020a00",
@@ -1909,12 +1909,12 @@
                 "type": "167",
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "formattedAddress": [
-                    "HYEONHEE KANG"
+                    "PARK SAE MI"
                 ],
                 "formattedPostalAddress": "KR",
                 "determinationMethod": "7",
                 "determinationMethodDescription": "Provided by business partner relationship",
-                "partyName": "HYEONHEE KANG",
+                "partyName": "PARK SAE MI",
                 "phoneFormattedNumber": "",
                 "mobileFormattedNumber": "+82 1052899251",
                 "email": "hyeonhee.kang@jmckor.com"
@@ -1934,7 +1934,7 @@
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "determinationMethod": "3",
                 "determinationMethodDescription": "Provided by logon user data",
-                "partyName": "HYEONHEE KANG"
+                "partyName": "PARK SAE MI"
             },
             "salesUnit": {
                 "partyId": "11ef8f74-a396-072e-afdb-81d830020a00",
@@ -2029,12 +2029,12 @@
                     "type": "167",
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "formattedAddress": [
-                        "HYEONHEE KANG"
+                        "PARK SAE MI"
                     ],
                     "formattedPostalAddress": "KR",
                     "determinationMethod": "7",
                     "determinationMethodDescription": "Provided by business partner relationship",
-                    "partyName": "HYEONHEE KANG",
+                    "partyName": "PARK SAE MI",
                     "phoneFormattedNumber": "",
                     "mobileFormattedNumber": "+82 1052899251",
                     "email": "hyeonhee.kang@jmckor.com"
@@ -2076,7 +2076,7 @@
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "determinationMethod": "3",
                     "determinationMethodDescription": "Provided by logon user data",
-                    "partyName": "HYEONHEE KANG"
+                    "partyName": "PARK SAE MI"
                 }
             ],
             "totalValues": {
@@ -2115,10 +2115,10 @@
             "adminData": {
                 "createdOn": "2025-03-05T10:00:13.188Z",
                 "createdBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "createdByName": "HYEONHEE KANG",
+                "createdByName": "PARK SAE MI",
                 "updatedOn": "2025-03-06T01:27:45.130Z",
                 "updatedBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "updatedByName": "HYEONHEE KANG"
+                "updatedByName": "PARK SAE MI"
             },
             "account": {
                 "partyId": "11ef8d05-a4cb-40ee-afdb-81d830020a00",
@@ -2169,12 +2169,12 @@
                 "type": "167",
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "formattedAddress": [
-                    "HYEONHEE KANG"
+                    "PARK SAE MI"
                 ],
                 "formattedPostalAddress": "KR",
                 "determinationMethod": "1",
                 "determinationMethodDescription": "Provided by an unspecified external source",
-                "partyName": "HYEONHEE KANG",
+                "partyName": "PARK SAE MI",
                 "phoneFormattedNumber": "",
                 "mobileFormattedNumber": "+82 1052899251",
                 "email": "hyeonhee.kang@jmckor.com"
@@ -2194,7 +2194,7 @@
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "determinationMethod": "1",
                 "determinationMethodDescription": "Provided by an unspecified external source",
-                "partyName": "HYEONHEE KANG"
+                "partyName": "PARK SAE MI"
             },
             "salesUnit": {
                 "partyId": "11ef8f74-a396-072e-afdb-81d830020a00",
@@ -2289,12 +2289,12 @@
                     "type": "167",
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "formattedAddress": [
-                        "HYEONHEE KANG"
+                        "PARK SAE MI"
                     ],
                     "formattedPostalAddress": "KR",
                     "determinationMethod": "1",
                     "determinationMethodDescription": "Provided by an unspecified external source",
-                    "partyName": "HYEONHEE KANG",
+                    "partyName": "PARK SAE MI",
                     "phoneFormattedNumber": "",
                     "mobileFormattedNumber": "+82 1052899251",
                     "email": "hyeonhee.kang@jmckor.com"
@@ -2336,7 +2336,7 @@
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "determinationMethod": "1",
                     "determinationMethodDescription": "Provided by an unspecified external source",
-                    "partyName": "HYEONHEE KANG"
+                    "partyName": "PARK SAE MI"
                 }
             ],
             "totalValues": {
@@ -2381,10 +2381,10 @@
             "adminData": {
                 "createdOn": "2025-03-05T08:57:25.307Z",
                 "createdBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "createdByName": "HYEONHEE KANG",
+                "createdByName": "PARK SAE MI",
                 "updatedOn": "2025-03-05T09:48:46.249Z",
                 "updatedBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "updatedByName": "HYEONHEE KANG"
+                "updatedByName": "PARK SAE MI"
             },
             "account": {
                 "partyId": "11ef8d05-a4cb-40ee-afdb-81d830020a00",
@@ -2435,12 +2435,12 @@
                 "type": "167",
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "formattedAddress": [
-                    "HYEONHEE KANG"
+                    "PARK SAE MI"
                 ],
                 "formattedPostalAddress": "KR",
                 "determinationMethod": "1",
                 "determinationMethodDescription": "Provided by an unspecified external source",
-                "partyName": "HYEONHEE KANG",
+                "partyName": "PARK SAE MI",
                 "phoneFormattedNumber": "",
                 "mobileFormattedNumber": "+82 1052899251",
                 "email": "hyeonhee.kang@jmckor.com"
@@ -2460,7 +2460,7 @@
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "determinationMethod": "1",
                 "determinationMethodDescription": "Provided by an unspecified external source",
-                "partyName": "HYEONHEE KANG"
+                "partyName": "PARK SAE MI"
             },
             "salesUnit": {
                 "partyId": "11ef8f74-a396-072e-afdb-81d830020a00",
@@ -2555,12 +2555,12 @@
                     "type": "167",
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "formattedAddress": [
-                        "HYEONHEE KANG"
+                        "PARK SAE MI"
                     ],
                     "formattedPostalAddress": "KR",
                     "determinationMethod": "1",
                     "determinationMethodDescription": "Provided by an unspecified external source",
-                    "partyName": "HYEONHEE KANG",
+                    "partyName": "PARK SAE MI",
                     "phoneFormattedNumber": "",
                     "mobileFormattedNumber": "+82 1052899251",
                     "email": "hyeonhee.kang@jmckor.com"
@@ -2602,7 +2602,7 @@
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "determinationMethod": "1",
                     "determinationMethodDescription": "Provided by an unspecified external source",
-                    "partyName": "HYEONHEE KANG"
+                    "partyName": "PARK SAE MI"
                 }
             ],
             "totalValues": {
@@ -2647,10 +2647,10 @@
             "adminData": {
                 "createdOn": "2025-02-19T03:33:25.022Z",
                 "createdBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "createdByName": "HYEONHEE KANG",
+                "createdByName": "PARK SAE MI",
                 "updatedOn": "2025-03-05T08:34:56.338Z",
                 "updatedBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "updatedByName": "HYEONHEE KANG"
+                "updatedByName": "PARK SAE MI"
             },
             "account": {
                 "partyId": "11ef8b6c-059a-997e-afdb-81d830020a00",
@@ -2702,12 +2702,12 @@
                 "type": "167",
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "formattedAddress": [
-                    "HYEONHEE KANG"
+                    "PARK SAE MI"
                 ],
                 "formattedPostalAddress": "KR",
                 "determinationMethod": "3",
                 "determinationMethodDescription": "Provided by logon user data",
-                "partyName": "HYEONHEE KANG",
+                "partyName": "PARK SAE MI",
                 "phoneFormattedNumber": "",
                 "mobileFormattedNumber": "+82 1052899251",
                 "email": "hyeonhee.kang@jmckor.com"
@@ -2727,7 +2727,7 @@
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "determinationMethod": "3",
                 "determinationMethodDescription": "Provided by logon user data",
-                "partyName": "HYEONHEE KANG"
+                "partyName": "PARK SAE MI"
             },
             "salesUnit": {
                 "partyId": "11ef8f74-a396-072e-afdb-81d830020a00",
@@ -2823,12 +2823,12 @@
                     "type": "167",
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "formattedAddress": [
-                        "HYEONHEE KANG"
+                        "PARK SAE MI"
                     ],
                     "formattedPostalAddress": "KR",
                     "determinationMethod": "3",
                     "determinationMethodDescription": "Provided by logon user data",
-                    "partyName": "HYEONHEE KANG",
+                    "partyName": "PARK SAE MI",
                     "phoneFormattedNumber": "",
                     "mobileFormattedNumber": "+82 1052899251",
                     "email": "hyeonhee.kang@jmckor.com"
@@ -2870,7 +2870,7 @@
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "determinationMethod": "3",
                     "determinationMethodDescription": "Provided by logon user data",
-                    "partyName": "HYEONHEE KANG"
+                    "partyName": "PARK SAE MI"
                 }
             ],
             "totalValues": {
@@ -2912,10 +2912,10 @@
             "adminData": {
                 "createdOn": "2025-01-23T01:15:47.022Z",
                 "createdBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "createdByName": "HYEONHEE KANG",
+                "createdByName": "PARK SAE MI",
                 "updatedOn": "2025-04-02T01:09:03.628Z",
                 "updatedBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "updatedByName": "HYEONHEE KANG"
+                "updatedByName": "PARK SAE MI"
             },
             "account": {
                 "partyId": "11ef8b6c-059a-997e-afdb-81d830020a00",
@@ -2967,12 +2967,12 @@
                 "type": "167",
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "formattedAddress": [
-                    "HYEONHEE KANG"
+                    "PARK SAE MI"
                 ],
                 "formattedPostalAddress": "KR",
                 "determinationMethod": "3",
                 "determinationMethodDescription": "Provided by logon user data",
-                "partyName": "HYEONHEE KANG",
+                "partyName": "PARK SAE MI",
                 "phoneFormattedNumber": "",
                 "mobileFormattedNumber": "+82 1052899251",
                 "email": "hyeonhee.kang@jmckor.com"
@@ -2992,7 +2992,7 @@
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "determinationMethod": "3",
                 "determinationMethodDescription": "Provided by logon user data",
-                "partyName": "HYEONHEE KANG"
+                "partyName": "PARK SAE MI"
             },
             "salesUnit": {
                 "partyId": "11ef8f74-a396-072e-afdb-81d830020a00",
@@ -3088,12 +3088,12 @@
                     "type": "167",
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "formattedAddress": [
-                        "HYEONHEE KANG"
+                        "PARK SAE MI"
                     ],
                     "formattedPostalAddress": "KR",
                     "determinationMethod": "3",
                     "determinationMethodDescription": "Provided by logon user data",
-                    "partyName": "HYEONHEE KANG",
+                    "partyName": "PARK SAE MI",
                     "phoneFormattedNumber": "",
                     "mobileFormattedNumber": "+82 1052899251",
                     "email": "hyeonhee.kang@jmckor.com"
@@ -3135,7 +3135,7 @@
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "determinationMethod": "3",
                     "determinationMethodDescription": "Provided by logon user data",
-                    "partyName": "HYEONHEE KANG"
+                    "partyName": "PARK SAE MI"
                 }
             ],
             "totalValues": {
@@ -3181,10 +3181,10 @@
             "adminData": {
                 "createdOn": "2025-01-21T09:31:58.902Z",
                 "createdBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "createdByName": "HYEONHEE KANG",
+                "createdByName": "PARK SAE MI",
                 "updatedOn": "2025-03-06T03:22:46.064Z",
                 "updatedBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "updatedByName": "HYEONHEE KANG"
+                "updatedByName": "PARK SAE MI"
             },
             "account": {
                 "partyId": "11ef8d05-a4cb-40ee-afdb-81d830020a00",
@@ -3235,12 +3235,12 @@
                 "type": "167",
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "formattedAddress": [
-                    "HYEONHEE KANG"
+                    "PARK SAE MI"
                 ],
                 "formattedPostalAddress": "KR",
                 "determinationMethod": "1",
                 "determinationMethodDescription": "Provided by an unspecified external source",
-                "partyName": "HYEONHEE KANG",
+                "partyName": "PARK SAE MI",
                 "phoneFormattedNumber": "",
                 "mobileFormattedNumber": "+82 1052899251",
                 "email": "hyeonhee.kang@jmckor.com"
@@ -3260,7 +3260,7 @@
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "determinationMethod": "1",
                 "determinationMethodDescription": "Provided by an unspecified external source",
-                "partyName": "HYEONHEE KANG"
+                "partyName": "PARK SAE MI"
             },
             "salesUnit": {
                 "partyId": "11ef8f74-a396-072e-afdb-81d830020a00",
@@ -3355,12 +3355,12 @@
                     "type": "167",
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "formattedAddress": [
-                        "HYEONHEE KANG"
+                        "PARK SAE MI"
                     ],
                     "formattedPostalAddress": "KR",
                     "determinationMethod": "1",
                     "determinationMethodDescription": "Provided by an unspecified external source",
-                    "partyName": "HYEONHEE KANG",
+                    "partyName": "PARK SAE MI",
                     "phoneFormattedNumber": "",
                     "mobileFormattedNumber": "+82 1052899251",
                     "email": "hyeonhee.kang@jmckor.com"
@@ -3402,7 +3402,7 @@
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "determinationMethod": "1",
                     "determinationMethodDescription": "Provided by an unspecified external source",
-                    "partyName": "HYEONHEE KANG"
+                    "partyName": "PARK SAE MI"
                 }
             ],
             "totalValues": {
@@ -3452,7 +3452,7 @@
                 "createdByName": "SOHEE KIM",
                 "updatedOn": "2025-01-23T03:44:48.666Z",
                 "updatedBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "updatedByName": "HYEONHEE KANG"
+                "updatedByName": "PARK SAE MI"
             },
             "account": {
                 "partyId": "11ef8d05-a4cb-40ee-afdb-81d830020a00",
@@ -3503,12 +3503,12 @@
                 "type": "167",
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "formattedAddress": [
-                    "HYEONHEE KANG"
+                    "PARK SAE MI"
                 ],
                 "formattedPostalAddress": "KR",
                 "determinationMethod": "7",
                 "determinationMethodDescription": "Provided by business partner relationship",
-                "partyName": "HYEONHEE KANG",
+                "partyName": "PARK SAE MI",
                 "phoneFormattedNumber": "",
                 "mobileFormattedNumber": "+82 1052899251",
                 "email": "hyeonhee.kang@jmckor.com"
@@ -3622,12 +3622,12 @@
                     "type": "167",
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "formattedAddress": [
-                        "HYEONHEE KANG"
+                        "PARK SAE MI"
                     ],
                     "formattedPostalAddress": "KR",
                     "determinationMethod": "7",
                     "determinationMethodDescription": "Provided by business partner relationship",
-                    "partyName": "HYEONHEE KANG",
+                    "partyName": "PARK SAE MI",
                     "phoneFormattedNumber": "",
                     "mobileFormattedNumber": "+82 1052899251",
                     "email": "hyeonhee.kang@jmckor.com"
@@ -3717,10 +3717,10 @@
             "adminData": {
                 "createdOn": "2025-01-16T07:23:50.227Z",
                 "createdBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "createdByName": "HYEONHEE KANG",
+                "createdByName": "PARK SAE MI",
                 "updatedOn": "2025-01-16T07:24:58.315Z",
                 "updatedBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "updatedByName": "HYEONHEE KANG"
+                "updatedByName": "PARK SAE MI"
             },
             "account": {
                 "partyId": "11ef8d05-a4cb-40ee-afdb-81d830020a00",
@@ -3771,12 +3771,12 @@
                 "type": "167",
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "formattedAddress": [
-                    "HYEONHEE KANG"
+                    "PARK SAE MI"
                 ],
                 "formattedPostalAddress": "KR",
                 "determinationMethod": "7",
                 "determinationMethodDescription": "Provided by business partner relationship",
-                "partyName": "HYEONHEE KANG",
+                "partyName": "PARK SAE MI",
                 "phoneFormattedNumber": "",
                 "mobileFormattedNumber": "+82 1052899251",
                 "email": "hyeonhee.kang@jmckor.com"
@@ -3796,7 +3796,7 @@
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "determinationMethod": "3",
                 "determinationMethodDescription": "Provided by logon user data",
-                "partyName": "HYEONHEE KANG"
+                "partyName": "PARK SAE MI"
             },
             "salesUnit": {
                 "partyId": "11ef8f74-a396-072e-afdb-81d830020a00",
@@ -3891,12 +3891,12 @@
                     "type": "167",
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "formattedAddress": [
-                        "HYEONHEE KANG"
+                        "PARK SAE MI"
                     ],
                     "formattedPostalAddress": "KR",
                     "determinationMethod": "7",
                     "determinationMethodDescription": "Provided by business partner relationship",
-                    "partyName": "HYEONHEE KANG",
+                    "partyName": "PARK SAE MI",
                     "phoneFormattedNumber": "",
                     "mobileFormattedNumber": "+82 1052899251",
                     "email": "hyeonhee.kang@jmckor.com"
@@ -3938,7 +3938,7 @@
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "determinationMethod": "3",
                     "determinationMethodDescription": "Provided by logon user data",
-                    "partyName": "HYEONHEE KANG"
+                    "partyName": "PARK SAE MI"
                 }
             ],
             "totalValues": {
@@ -3985,10 +3985,10 @@
             "adminData": {
                 "createdOn": "2025-01-14T09:24:11.950Z",
                 "createdBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "createdByName": "HYEONHEE KANG",
+                "createdByName": "PARK SAE MI",
                 "updatedOn": "2025-01-14T11:32:08.633Z",
                 "updatedBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "updatedByName": "HYEONHEE KANG"
+                "updatedByName": "PARK SAE MI"
             },
             "account": {
                 "partyId": "11ef8b6c-059a-997e-afdb-81d830020a00",
@@ -4040,12 +4040,12 @@
                 "type": "167",
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "formattedAddress": [
-                    "HYEONHEE KANG"
+                    "PARK SAE MI"
                 ],
                 "formattedPostalAddress": "KR",
                 "determinationMethod": "3",
                 "determinationMethodDescription": "Provided by logon user data",
-                "partyName": "HYEONHEE KANG",
+                "partyName": "PARK SAE MI",
                 "phoneFormattedNumber": "",
                 "mobileFormattedNumber": "+82 1052899251",
                 "email": "hyeonhee.kang@jmckor.com"
@@ -4065,7 +4065,7 @@
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "determinationMethod": "3",
                 "determinationMethodDescription": "Provided by logon user data",
-                "partyName": "HYEONHEE KANG"
+                "partyName": "PARK SAE MI"
             },
             "salesUnit": {
                 "partyId": "11ef8f74-a396-072e-afdb-81d830020a00",
@@ -4161,12 +4161,12 @@
                     "type": "167",
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "formattedAddress": [
-                        "HYEONHEE KANG"
+                        "PARK SAE MI"
                     ],
                     "formattedPostalAddress": "KR",
                     "determinationMethod": "3",
                     "determinationMethodDescription": "Provided by logon user data",
-                    "partyName": "HYEONHEE KANG",
+                    "partyName": "PARK SAE MI",
                     "phoneFormattedNumber": "",
                     "mobileFormattedNumber": "+82 1052899251",
                     "email": "hyeonhee.kang@jmckor.com"
@@ -4208,7 +4208,7 @@
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "determinationMethod": "3",
                     "determinationMethodDescription": "Provided by logon user data",
-                    "partyName": "HYEONHEE KANG"
+                    "partyName": "PARK SAE MI"
                 }
             ],
             "totalValues": {
@@ -4254,10 +4254,10 @@
             "adminData": {
                 "createdOn": "2025-01-09T06:28:07.330Z",
                 "createdBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "createdByName": "HYEONHEE KANG",
+                "createdByName": "PARK SAE MI",
                 "updatedOn": "2025-02-04T01:22:41.299Z",
                 "updatedBy": "8bfbf670-8b68-11ef-9d8c-f9431c2e05fd",
-                "updatedByName": "HYEONHEE KANG"
+                "updatedByName": "PARK SAE MI"
             },
             "account": {
                 "partyId": "11ef8d05-a4cb-40ee-afdb-81d830020a00",
@@ -4308,12 +4308,12 @@
                 "type": "167",
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "formattedAddress": [
-                    "HYEONHEE KANG"
+                    "PARK SAE MI"
                 ],
                 "formattedPostalAddress": "KR",
                 "determinationMethod": "7",
                 "determinationMethodDescription": "Provided by business partner relationship",
-                "partyName": "HYEONHEE KANG",
+                "partyName": "PARK SAE MI",
                 "phoneFormattedNumber": "",
                 "mobileFormattedNumber": "+82 1052899251",
                 "email": "hyeonhee.kang@jmckor.com"
@@ -4333,7 +4333,7 @@
                 "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                 "determinationMethod": "3",
                 "determinationMethodDescription": "Provided by logon user data",
-                "partyName": "HYEONHEE KANG"
+                "partyName": "PARK SAE MI"
             },
             "salesUnit": {
                 "partyId": "11ef8f74-a396-072e-afdb-81d830020a00",
@@ -4428,12 +4428,12 @@
                     "type": "167",
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "formattedAddress": [
-                        "HYEONHEE KANG"
+                        "PARK SAE MI"
                     ],
                     "formattedPostalAddress": "KR",
                     "determinationMethod": "7",
                     "determinationMethodDescription": "Provided by business partner relationship",
-                    "partyName": "HYEONHEE KANG",
+                    "partyName": "PARK SAE MI",
                     "phoneFormattedNumber": "",
                     "mobileFormattedNumber": "+82 1052899251",
                     "email": "hyeonhee.kang@jmckor.com"
@@ -4475,7 +4475,7 @@
                     "addressId": "11ef8b68-73d1-4f0e-afdb-81d830020a00",
                     "determinationMethod": "3",
                     "determinationMethodDescription": "Provided by logon user data",
-                    "partyName": "HYEONHEE KANG"
+                    "partyName": "PARK SAE MI"
                 }
             ],
             "totalValues": {

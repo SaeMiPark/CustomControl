@@ -44,4 +44,44 @@
     vertical-align: -5px;
 }
 
+.sapMPopover .sapMPopoverCont{
+    padding: 0px !important;
+}
+
+.itemBox .sapMCbBg{
+    background-color: #eff1f2 !important;
+    /* border: solid .125rem var(--sapField_BorderColor) */
+}
+
+.itemBox .sapMSFS  {
+    order: -1; /* 배치 순서 변경 */
+}
+
+.itemBox .sapMSF{
+    padding: 0px !important;
+}
+
+.itemBox .sapMSFF{
+    padding: 0px !important;
+    margin: 0px !important;
+    box-shadow: none !important;
+    background-color: #eff1f2;
+}
+
+.sapMBtn .sapMBadge .sapMBadgeIndicator::after {
+    background-color: #0064d9 !important;
+    border-color: #0064d9 !important;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* border: solid .125rem var(--sapField_BorderColor) */
+/* #eff1f2 */
+
 

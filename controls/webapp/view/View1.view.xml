@@ -4,10 +4,37 @@
     xmlns:custom="controls.src">
     <Page id="page" title="{i18n>title}" showHeader="false">
         <VBox width="100%" class="filterBox">
-            <custom:FilterMultiComboBox prefixTableId="container-controls---View1--TestTable">
-            </custom:FilterMultiComboBox>
-        </VBox>
-        <VBox>
+        	<!-- <Button
+					id="BadgedButton"
+					class="sapUiTinyMarginBeginEnd"
+					icon="sap-icon://slim-arrow-down"
+					type="Default"
+					badgeStyle="Default"
+					text="계정"
+                    iconFirst= "false">
+					<customData>
+						<BadgeCustomData 
+							key="badge"
+							value="1"
+							visible="true"
+                            animation="None"/>
+					</customData>
+				</Button> -->
+            <custom:FilterMultiContainer prefixTableId="container-controls---View1--TestTable">
+            </custom:FilterMultiContainer>
+            <HBox >
+                <custom:FilterComboBox
+                    id="menuFilterCombo1"
+                    label="계정"
+                    selectionChange="onSelectionChange"
+                />
+                <custom:FilterComboBox
+                    id="menuFilterCombo2"
+                    label="케이스"
+                    selectionChange="onSelectionChange"
+                />
+            </HBox>
+            <!-- <MultiInput id="multiInput1" showSuggestion="false" width="70%" showValueHelp="false"/> -->
             <Table id="TestTable"
                 mode="MultiSelect"
                 sticky="HeaderToolbar,ColumnHeaders"
