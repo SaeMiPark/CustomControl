@@ -46,7 +46,8 @@ sap.ui.define([
             var oBadgeData = new BadgeCustomData({
                 key: "badge",
                 value: "", // 초기값 없음
-                visible: true
+                visible: true,
+                animation: "None"
             });
 
             this._oButton.addCustomData(oBadgeData);
@@ -187,31 +188,6 @@ sap.ui.define([
                 return oItem.getTitle();
             });
         },
-
-        getTokens: function(){
-            if (!this._oList) {
-                return [];
-            }
-            let tokenList = [];
-
-            const aSelectedItems = this._oList.getSelectedItems();
-
-            if (aSelectedItems.length) {
-                let oneToken = null;
-                aSelectedItems.map(item => {
-                    const aCustomData = item.getAggregation("customData")[1] || []; //index 1: button정보
-                    oneToken = new Token({text: item.getTitle() , key: aCustomData.getValue()})
-                    if(oneToken){
-                        tokenList.push(oneToken); 
-                    }
-                });
-                
-            }
-
-            return tokenList;
-
-        },
-
 
         _onSearch: function (oEvent) {
             var sQuery = oEvent.getSource().getValue().toLowerCase();

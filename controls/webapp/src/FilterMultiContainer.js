@@ -23,7 +23,8 @@ sap.ui.define([
     init: function() {
         const oTokenizer = new Tokenizer({
           width: "100%",
-          tokenDelete: this._onTokenDelete.bind(this)
+          tokenDelete: this._onTokenDelete.bind(this),
+          visible: false
         });
         this.setAggregation("tokenizer", oTokenizer);
     },
@@ -51,20 +52,28 @@ sap.ui.define([
 
     renderer: function(oRm, oControl) {
         oRm.openStart("div", oControl);
+        oRm.addClass("FilterMultiContainer");
+        oRm.writeClasses();
+        oRm.openEnd();
+
+        
+        // comboBox div
+        oRm.openStart("div", oControl);
         oRm.addClass("FilterMultiComboBox");
         oRm.writeClasses();
         oRm.openEnd();
-        // const aGroupObjs = oControl._menuGroupStore || [];
         const aBoxes = oControl.getAggregation("menuGroups") || [];
         aBoxes.forEach(box => oRm.renderControl(box));
+        oRm.close("div");
 
+        // tokenizer
         const oTokenizer = oControl.getAggregation("tokenizer");
         if (oTokenizer) {
           oRm.renderControl(oTokenizer);
         }
         
         oRm.close("div");
-        oRm.write("</div>");
+        // oRm.write("</div>");
     }
   });
 
@@ -92,7 +101,7 @@ sap.ui.define([
 
 
         oGroup.setItems(uniqueList.map(val => ({
-          key: sProp,
+          key: sProp+"|"+val,
           text: val
         })));
         
@@ -124,19 +133,24 @@ sap.ui.define([
 
       if (aSelectedItems.length) {
         const aSubFilters = aSelectedItems.map(item => {
-          const aCustomData = item.getAggregation("customData")[0] || []; //0번 path에 대한 data
+          debugger;
+          const aCustomData = item.getAggregation("customData")[0] || []; //index: 0번 path에 대한 data
+          const aCustomDataBtn = item.getAggregation("customData")[1] || []; //index: 1번 button명에 대한 data
           const sKey = aCustomData.getValue();
+          const sPath=sKey.split("|")[0]
           const sValue = item.getTitle();      
           // ✅ 토큰 생성
           if (sKey && sValue && oTokenizer) {
             const oToken = new Token({ 
               key: sKey, 
-              text: sValue 
+              text: aCustomDataBtn.getValue().toUpperCase()+": "+sValue 
             });
+            oToken.addStyleClass("token");
             oTokenizer.addToken(oToken);
+             oTokenizer.setVisible(true);
           }
           // ✅ 여기까지
-          return new Filter(sKey, FilterOperator.Contains, sValue)
+          return new Filter(sPath, FilterOperator.Contains, sValue)
         });
         aFilters.push(new Filter(aSubFilters, false)); 
       }    
@@ -152,34 +166,33 @@ sap.ui.define([
     const oTokenizer = this.getAggregation("tokenizer");
     const aRemovedTokens = oControl.getParameter("tokens");
 
+    let tokenKey = null;
+    let tokenValue = null;
+
     //1. token제거
     aRemovedTokens.forEach(token => {
-      const sKey = token.getKey();
-      const sValue = token.getText();
-      console.log("Deleted token key:", sKey);
-      console.log("Deleted token key:", sValue);
+      tokenKey = token.getKey();
+      tokenValue = token.getText();
+      // console.log("Deleted token key:", tokenKey); //documentTypeDescription|AMS Quote
+      // console.log("Deleted token value:", tokenValue); //AMS Quote
 
       oTokenizer.removeToken(token); // 해당 Token 제거
     });
 
-    // 2. 모든 ComboBox에서 해당 key를 제거
+    // 2. 삭제 토근 콤보박스 선택 해제 & table filter 해제 반영
     const aBoxes = this.getAggregation("menuGroups") || [];
     aBoxes.forEach(oCombo => {
       debugger;
-
       const aSelectedKeys = oCombo.getSelectedKeys();
 
-      if(!aSelectedKeys){
-        return;
-      }
+       if (!aSelectedKeys.includes(tokenKey)) return;
 
-      //다시시작지점
-      // const iIndex = aSelectedKeys.indexOf(sKey);
-
-      // if (iIndex > -1) {
-      //   aSelectedKeys.splice(iIndex, 1); // 해당 key 제거
-      //   oCombo.setSelectedKeys(aSelectedKeys); // 변경된 selectedKeys로 갱신
-      // }
+      // key 목록에서 해당 key 제거
+      const aUpdatedKeys = aSelectedKeys.filter(key => key !== tokenKey);
+      // 선택 상태 갱신
+      oCombo.setSelectedKeys(aUpdatedKeys);
+      //table filter반영
+      this._applyFilters();
     });
   };
 

@@ -3,11 +3,7 @@
     box-sizing: border-box;
 } */
 
-.FilterMultiComboBox{
-    /* border: none !important; */
-}
-
-
+/* Enter your custom styles here */
 .customSortNone::after {
     background-image: url('data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQogICAgPHBhdGggZD0iTTkuMDM3IDkuNTE3IDEyIDUuOWwyLjk2MyAzLjYxN0g5LjAzN1ptLTIuMTE3LjI2N2MtLjM5NS40ODMtLjA1OCAxLjIxNi41NiAxLjIxNmg5LjA0Yy42MTggMCAuOTU1LS43MzMuNTYtMS4yMTZsLTQuNTItNS41MTdhLjcyMS43MjEgMCAwIDAtMS4xMiAwTDYuOTIgOS43ODNaTTEyIDE4LjFsMi45NjMtMy42MTdIOS4wMzdMMTIgMTguMVptLTUuMDgtMy44ODRDNi41MjUgMTMuNzMzIDYuODYyIDEzIDcuNDggMTNoOS4wNGMuNjE4IDAgLjk1NS43MzMuNTYgMS4yMTZsLTQuNTIgNS41MTdhLjcyMS43MjEgMCAwIDEtMS4xMiAwbC00LjUyLTUuNTE3WiI+PC9wYXRoPg0KPC9zdmc+');
     display: inline-block;
@@ -72,6 +68,58 @@
     background-color: #0064d9 !important;
     border-color: #0064d9 !important;
     text-align: center;
+}
+
+.filterBox .sapMFlexItem{
+    /* 전체패딩 */
+    padding: 0.5rem !important;
+}
+
+.FilterMultiContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.FilterMultiComboBox{
+    flex: 1;
+    margin: 0.5rem !important;
+    padding: 0.5rem !important;
+    background-color: white !important;
+    border-radius: 0.5rem !important;
+    box-shadow: 0.25rem 0.25rem 0.25rem rgba(91, 115, 139, 0.25) !important;
+}
+
+.FilterMultiContainer .sapMTokenizer{
+    background-color: #f5f6f7 !important;
+    padding: 0.5rem !important;
+
+}
+
+/* .FilterMultiTokenizer{
+    flex: 1;
+ 
+} */
+
+
+html[data-sap-ui-animation='on'] .sapMBadge.sapMBadgeAnimationTypeFull .sapMBadgeDefault.sapMBadgeAnimationAdd::after{  
+    animation: none !important;
+}
+
+.token{
+    background-color: #0064d9 !important;
+    border-radius: 10rem !important;
+}
+
+.token .sapMTokenText{
+    color: white !important;
+    font-size: smaller !important;
+    font-weight: 700 !important;
+}
+
+.token .sapMTokenIcon::before {
+    color: white !important;
 }
 
 

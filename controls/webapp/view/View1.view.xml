@@ -2,7 +2,7 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m"
     xmlns:custom="controls.src">
-    <Page id="page" title="{i18n>title}" showHeader="false">
+    <Page id="page" title="{i18n>title}" showHeader="false" class="page">
         <VBox width="100%" class="filterBox">
         	<!-- <Button
 					id="BadgedButton"
@@ -22,7 +22,7 @@
 				</Button> -->
             <custom:FilterMultiContainer prefixTableId="container-controls---View1--TestTable">
             </custom:FilterMultiContainer>
-            <HBox >
+            <!-- <HBox >
                 <custom:FilterComboBox
                     id="menuFilterCombo1"
                     label="계정"
@@ -33,7 +33,7 @@
                     label="케이스"
                     selectionChange="onSelectionChange"
                 />
-            </HBox>
+            </HBox> -->
             <!-- <MultiInput id="multiInput1" showSuggestion="false" width="70%" showValueHelp="false"/> -->
             <Table id="TestTable"
                 mode="MultiSelect"
@@ -51,9 +51,9 @@
                     <Column >
                         <Text text="Name"/>
                     </Column>
-                    <Column >
+                    <custom:SortFilterColumn filterProperty="account/partyName">
                         <Text text="Account"/>
-                    </Column>
+                    </custom:SortFilterColumn>
                     <custom:SortFilterColumn filterProperty="owner/partyName">
                         <Text text="Owner"/>
                     </custom:SortFilterColumn>
