@@ -8,9 +8,11 @@ sap.ui.define([
     return Controller.extend("controls.controller.View1", {
         onInit() {
             const oData = sap.ui.require.toUrl("controls/model/quote.json");
-            this.getView().setModel(new JSONModel(oData), "TableModel");
-
-            // const that = this;
+            this.getView().setModel(new JSONModel(oData),"TableModel");
+            //ajax
+        
+            
+            const that = this;
             // this.byId("menuFilterCombo1").setItems([
             //     { key: "1", text: "(주)경인양행" },
             //     { key: "2", text: "(주)엘지씨에스" },

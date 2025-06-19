@@ -1,5 +1,5 @@
 sap.ui.define([
-    "sap/m/library",
+     "sap/m/library",
     "sap/ui/core/Control",
     "sap/m/Button",
     "sap/m/BadgeCustomData",
@@ -11,17 +11,21 @@ sap.ui.define([
 ], function (Library, Control, Button, BadgeCustomData , Popover, VBox, SearchField, List, StandardListItem) {
     "use strict";
 
-    var FilterComboBox = Control.extend("controls.src.FilterComboBox", {
+    var MultiComboBox = Control.extend("controls.src.MultiComboBox", {
         metadata: {
+            defaultAggregation: "items",
+            library: "sap.m",
             properties: {
                 label: { type: "string", defaultValue: "Error" },
                 selectedKeys: { type: "string[]", defaultValue: [] }
             },
             aggregations: {
-                multiInput: { type: "sap.m.MultiInput"}
+                multiInput: { type: "sap.m.MultiInput"},
+                items: { type: "sap.ui.core.Item", multiple: true, 	singularName: "item", bindable: "bindable" } 
             },
             events: {
                 selectionChange: {},
+                selectionFinish: {},
                 clearAll: {}
             }
         },
@@ -50,6 +54,7 @@ sap.ui.define([
             });
 
             this._oButton.addCustomData(oBadgeData);
+          
         },
         //이거때문에 Error라고 떴음.. 이해 필요.
         onBeforeRendering: function () {
@@ -58,31 +63,33 @@ sap.ui.define([
             }
         },
 
-        //1 aItems -> items데이터 리스트
-        setItems: function (aItems) {
-            this._aItems = aItems;
-            if (this._oList) {
-                this._oList.destroyItems();
-                this._buildListItems();
-            }
+        getItems: function () {
+            // return this._oList ? this._oList.getItems() : [];
+              return this.getAggregation("items") || [];
         },
 
-        getItems: function () {
-            return this._oList ? this._oList.getItems() : [];
-        },
         //2 데이터 바인딩 _buildListItems
         _buildListItems: function () {
-            this._aItems.forEach(function (item) {
-                var oItem = new StandardListItem({
-                    title:  item.text,//보이는 값
-                    selected: this._aSelectedKeys.includes(item.key),
-                    customData:[
-                        new sap.ui.core.CustomData({key: "path", value: item.key }), //보이는 값의 data path filter할때 필요..
-                        new sap.ui.core.CustomData({key: "group", value: this.getLabel() }), //button 명
-                    ] 
+            const aItems = this.getAggregation("items") || []; // 🔥 핵심 수정
+            if (!aItems ) return;
+        
+            aItems.forEach(function (oItem) {
+                const sKey = oItem.getKey();
+                const sText = oItem.getText();
+                const bSelected = this._aSelectedKeys.includes(sKey);
+
+                const oListItem = new StandardListItem({
+                    title: sText,
+                    selected: bSelected,
+                    customData: [
+                        new sap.ui.core.CustomData({ key: "key", value: sKey }),
+                        new sap.ui.core.CustomData({ key: "group", value: this.getLabel() })
+                    ]
                 });
-                this._oList.addItem(oItem);
+
+                this._oList.addItem(oListItem);
             }.bind(this));
+            
         },
 
         //버튼 클릭 이벤트 시작
@@ -97,7 +104,7 @@ sap.ui.define([
                 //2 listItem
                 this._buildListItems();
 
-
+                  
                 var oClearButton = new Button({
                     text: "Clear All",
                     icon: "sap-icon://add-filter",
@@ -131,10 +138,13 @@ sap.ui.define([
                 });
 
                 this._oPopover.addStyleClass("popover")
+    
+
             }
 
             this._oPopover.openBy(this._oButton);
         },
+
         setSelectedItems: function (aItems) {
             if (!Array.isArray(aItems) || !this._oList) return;
 
@@ -228,8 +238,6 @@ sap.ui.define([
 
             this._oButton.rerender(); // 강제 갱신
         },
-    
-
         renderer: function (oRm, oControl) {
             oRm.openStart("span", oControl);
             // oRm.class("menuFilterComboBox");
@@ -240,5 +248,6 @@ sap.ui.define([
     });
     
 
-    return FilterComboBox
+
+    return MultiComboBox
 });

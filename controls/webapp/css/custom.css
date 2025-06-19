@@ -49,8 +49,31 @@
     /* border: solid .125rem var(--sapField_BorderColor) */
 }
 
+/* 돌리기 실험 */
+/* .itemBox .sapMCbBg::after {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: blue;
+  border-radius: 50%; 
+  transform: rotate(0deg);
+  transition: transform 0.4s ease;
+}
+
+.sapMCb[aria-checked="true"] .sapMCbBg::after {
+  transform: rotate(360deg);
+  animation: reverse;
+} */
+/* 돌리기 실험 실패 끝 */
+
+.itemBox .sapMCbBg:hover{
+    background-color: white !important;
+    box-shadow: -3px -1.5px 5px 1px  rgba(91, 115, 139, 0.25) !important
+}
+
 .itemBox .sapMSFS  {
-    order: -1; /* 배치 순서 변경 */
+    order: -1; /* 돋보기 배치 순서 변경 */
 }
 
 .itemBox .sapMSF{
@@ -94,19 +117,9 @@
 .FilterMultiContainer .sapMTokenizer{
     background-color: #f5f6f7 !important;
     padding: 0.5rem !important;
-
 }
 
-/* .FilterMultiTokenizer{
-    flex: 1;
- 
-} */
-
-
-html[data-sap-ui-animation='on'] .sapMBadge.sapMBadgeAnimationTypeFull .sapMBadgeDefault.sapMBadgeAnimationAdd::after{  
-    animation: none !important;
-}
-
+/* 기본 token */
 .token{
     background-color: #0064d9 !important;
     border-radius: 10rem !important;
@@ -122,14 +135,38 @@ html[data-sap-ui-animation='on'] .sapMBadge.sapMBadgeAnimationTypeFull .sapMBadg
     color: white !important;
 }
 
+.token:hover{
+    cursor: pointer;
+}
+
+/* 전체 삭제 토큰 */
+.deleteToken{
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: 1px ;
+}   
+
+.deleteToken .sapMTokenText{
+    color: #0064d9 !important;
+    font-size: smaller !important;
+    font-weight: 700 !important;
+}
+
+.deleteToken .sapMTokenIcon::before {
+    color: white !important;
+}
+
+html.sap-desktop .deleteToken:focus {
+    outline: none !important;
+    border-radius: none !important;
+    outline-offset: none !important;
+}
+
+.deleteToken:hover{
+    cursor: pointer;
+}
 
 
 
-
-
-
-
-/* border: solid .125rem var(--sapField_BorderColor) */
-/* #eff1f2 */
 
 

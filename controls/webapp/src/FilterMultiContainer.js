@@ -16,7 +16,10 @@ sap.ui.define([
       },
       aggregations: {
         menuGroups: { type: "controls.src.FilterComboBox" },
-        tokenizer: { type: "sap.m.Tokenizer", multiple: false } 
+        tokenizer: { type: "sap.m.Tokenizer", multiple: false }
+      },
+      associations: {
+        table: {type: "sap.m.Table"}
       }
     },
 
@@ -78,7 +81,7 @@ sap.ui.define([
   });
 
   FilterMultiContainer.prototype.getTable = function() {
-    return sap.ui.getCore().byId(this.getPrefixTableId());
+     return sap.ui.getCore().byId(this.getAssociation("table"));
   };
 
   FilterMultiContainer.prototype.renderMenuGroups = function(aData) {
@@ -117,17 +120,18 @@ sap.ui.define([
   };
 
   FilterMultiContainer.prototype._applyFilters = function(oControl) {
+    
     const aFilters = [];
 
     // 모든 FilterComboBox를 순회하며 필터 수집
     const aBoxes = this.getAggregation("menuGroups") || [];
     const oTokenizer = this.getAggregation("tokenizer");
     if (oTokenizer) {
-      oTokenizer.removeAllTokens(); // 기존 토큰 초기화
+      oTokenizer.removeAllTokens();  // ✅ 모든 토큰 제거
     }
-
-
+    let bHasRealTokens = false;
     aBoxes.forEach(oCombo => {
+      
       let aSubFilters=null;
       const aSelectedItems = oCombo.getSelectedItems();
 
@@ -147,14 +151,26 @@ sap.ui.define([
             });
             oToken.addStyleClass("token");
             oTokenizer.addToken(oToken);
-             oTokenizer.setVisible(true);
+            oTokenizer.setVisible(true);
+            bHasRealTokens = true;
           }
           // ✅ 여기까지
           return new Filter(sPath, FilterOperator.Contains, sValue)
         });
         aFilters.push(new Filter(aSubFilters, false)); 
       }    
+    
     });
+    if(bHasRealTokens && oTokenizer){
+        const deleteToken = new Token({ 
+          key: "CLEAR FIELDS", 
+          text: "CLEAR FIELDS",
+          editable:false,
+          press: this._onTokenAllClear.bind(this)
+        });
+        deleteToken.addStyleClass("deleteToken");
+        oTokenizer.addToken(deleteToken);
+    }
 
     const oTable = this.getTable();
     const oBinding = oTable.getBinding("items");
@@ -169,7 +185,7 @@ sap.ui.define([
     let tokenKey = null;
     let tokenValue = null;
 
-    //1. token제거
+    //1. 토크나이저에서 삭제
     aRemovedTokens.forEach(token => {
       tokenKey = token.getKey();
       tokenValue = token.getText();
@@ -179,7 +195,7 @@ sap.ui.define([
       oTokenizer.removeToken(token); // 해당 Token 제거
     });
 
-    // 2. 삭제 토근 콤보박스 선택 해제 & table filter 해제 반영
+    //2. 콤보박스 & filter 반영
     const aBoxes = this.getAggregation("menuGroups") || [];
     aBoxes.forEach(oCombo => {
       debugger;
@@ -191,6 +207,23 @@ sap.ui.define([
       const aUpdatedKeys = aSelectedKeys.filter(key => key !== tokenKey);
       // 선택 상태 갱신
       oCombo.setSelectedKeys(aUpdatedKeys);
+      //table filter반영
+      this._applyFilters();
+    });
+  };
+
+  FilterMultiContainer.prototype._onTokenAllClear = function(oControl) {
+    //1. 토크나이저에서 삭제
+    const oTokenizer = this.getAggregation("tokenizer");
+    if (oTokenizer) {
+      oTokenizer.removeAllTokens();  // ✅ 모든 토큰 제거
+    }
+
+    //2. 콤보박스 & filter 반영
+    const aBoxes = this.getAggregation("menuGroups") || [];
+    aBoxes.forEach(oCombo => {
+      // 선택 상태 초기화
+      oCombo.setSelectedKeys([]);
       //table filter반영
       this._applyFilters();
     });

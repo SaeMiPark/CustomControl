@@ -1,9 +1,21 @@
 <mvc:View controllerName="controls.controller.View1"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m"
-    xmlns:custom="controls.src">
+    xmlns:custom="controls.src"
+    xmlns:core="sap.ui.core">
     <Page id="page" title="{i18n>title}" showHeader="false" class="page">
         <VBox width="100%" class="filterBox">
+            <custom:MultiComboBox
+                id="menuFilterCombo1"
+                label="계정"
+                selectionChange="onSelectionChange"
+                items="{TableModel>/value}"
+            >
+          
+                    <core:Item key="{TableModel>displayId}" text="{TableModel>displayId}" />
+             
+                <!-- <core:Item key="{account/partyName}" text="{displayId}"/> -->
+            </custom:MultiComboBox>
         	<!-- <Button
 					id="BadgedButton"
 					class="sapUiTinyMarginBeginEnd"
@@ -20,7 +32,7 @@
                             animation="None"/>
 					</customData>
 				</Button> -->
-            <custom:FilterMultiContainer prefixTableId="container-controls---View1--TestTable">
+            <custom:FilterMultiContainer table="TestTable">
             </custom:FilterMultiContainer>
             <!-- <HBox >
                 <custom:FilterComboBox
