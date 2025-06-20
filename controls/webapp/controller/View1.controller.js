@@ -27,6 +27,10 @@ sap.ui.define([
             //     { key: "11", text: "그룹" }
             // ]); 
 
+            //  this.byId("menuFilterCombo1").setSelectedItems([
+            //     { key: "1", text: "(주)경인양행" }
+            // ]); 
+
             //     this.byId("menuFilterCombo2").setItems([
             //     { key: "1", text: "case1" },
             //     { key: "2", text: "case2" },
@@ -54,9 +58,15 @@ sap.ui.define([
             // })
         }
         
-        // ,onSelectionChange: function () {
-        //     var oControl = this.byId("menuFilterCombo");
-        //     console.log("Selected Keys:", oControl.getSelectedKeys());
+        ,onSelectionChangeOne: function (oEvent) {
+            debugger;
+        }
+        ,originalSelectionChange:function(oEvent){
+            debugger;
+        }
+
+        // ,onSelectionChangeTwo: function (oEvent) {
+        //     debugger;
         // }
         // ,onAfterRendering(){
         //     this._resizeTable();
@@ -68,5 +78,7 @@ sap.ui.define([
         //     const offsetHeight = windowHeight - headerHeight - (windowHeight / 10);
         //     document.getElementById(this.getView().byId("TableBox").getId()).style.height = offsetHeight + "px"
         // }
+
+  
     });
 });

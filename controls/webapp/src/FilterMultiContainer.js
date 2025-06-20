@@ -11,9 +11,9 @@ sap.ui.define([
 
   var FilterMultiContainer  = Control.extend("controls.src.FilterMultiComboBox", {
     metadata: {
-      properties: {
-        prefixTableId: { type: "string" }
-      },
+      // properties: {
+      //   prefixTableId: { type: "string" }
+      // },
       aggregations: {
         menuGroups: { type: "controls.src.FilterComboBox" },
         tokenizer: { type: "sap.m.Tokenizer", multiple: false }
@@ -59,7 +59,6 @@ sap.ui.define([
         oRm.writeClasses();
         oRm.openEnd();
 
-        
         // comboBox div
         oRm.openStart("div", oControl);
         oRm.addClass("FilterMultiComboBox");
@@ -133,8 +132,8 @@ sap.ui.define([
     aBoxes.forEach(oCombo => {
       
       let aSubFilters=null;
-      const aSelectedItems = oCombo.getSelectedItems();
-
+      const aSelectedItems = oCombo.getSelectedKeys();
+      debugger;
       if (aSelectedItems.length) {
         const aSubFilters = aSelectedItems.map(item => {
           debugger;

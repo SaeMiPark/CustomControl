@@ -5,17 +5,15 @@
     xmlns:core="sap.ui.core">
     <Page id="page" title="{i18n>title}" showHeader="false" class="page">
         <VBox width="100%" class="filterBox">
-            <custom:MultiComboBox
-                id="menuFilterCombo1"
+            <!-- <custom:MultiComboBox
+                id="menuFilterCombo3"
                 label="계정"
                 selectionChange="onSelectionChange"
                 items="{TableModel>/value}"
             >
-          
-                    <core:Item key="{TableModel>displayId}" text="{TableModel>displayId}" />
-             
-                <!-- <core:Item key="{account/partyName}" text="{displayId}"/> -->
-            </custom:MultiComboBox>
+
+                <core:Item key="{TableModel>displayId}" text="{TableModel>displayId}" />
+            </custom:MultiComboBox> -->
         	<!-- <Button
 					id="BadgedButton"
 					class="sapUiTinyMarginBeginEnd"
@@ -32,20 +30,19 @@
                             animation="None"/>
 					</customData>
 				</Button> -->
-            <custom:FilterMultiContainer table="TestTable">
-            </custom:FilterMultiContainer>
-            <!-- <HBox >
+            <!-- <custom:FilterMultiContainer table="TestTable">
+            </custom:FilterMultiContainer> -->
+            <HBox >
                 <custom:FilterComboBox
                     id="menuFilterCombo1"
                     label="계정"
-                    selectionChange="onSelectionChange"
-                />
-                <custom:FilterComboBox
-                    id="menuFilterCombo2"
-                    label="케이스"
-                    selectionChange="onSelectionChange"
-                />
-            </HBox> -->
+                    selectionChange="onSelectionChangeOne"
+                    items="{TableModel>/value}"
+                >
+                    <core:Item key="{TableModel>displayId}" text="{TableModel>name}" />
+                </custom:FilterComboBox>
+     
+            </HBox>
             <!-- <MultiInput id="multiInput1" showSuggestion="false" width="70%" showValueHelp="false"/> -->
             <Table id="TestTable"
                 mode="MultiSelect"
