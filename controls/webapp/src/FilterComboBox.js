@@ -79,7 +79,7 @@ sap.ui.define([
     //1. 컨트롤러에서 시작점: aItems -> items데이터 리스트 (controller에서 set)
     //받아온 값 aItems -> this._oList에 addItem으로 set
     FilterComboBox.prototype.setItems = function(aItems){    
-        this._setItems(aItems);
+        this._setItems("controller",aItems);
     },
 
     //this._oList의 Item get
@@ -135,9 +135,9 @@ sap.ui.define([
 
         this._oButton.rerender(); // 강제 갱신
     },
-    FilterComboBox.prototype._setItems = function(aItems){
-        //매개변수 aItems 있을 때 controller에서 setItems일 때
-        if(aItems){
+    FilterComboBox.prototype._setItems = function(route, aItems){
+        //controller에서 setItems일 때(setItems)
+        if(route == "controller" && aItems){
             aItems.forEach(function (item) {
                 var oItem = new StandardListItem({
                     title:  item.text,//보이는 값
@@ -150,12 +150,9 @@ sap.ui.define([
                 });
                 this._oList.addItem(oItem);
             }.bind(this));
-        //매개변수 aItems 없을 때 view에서 items랑 core:Item 설정했을 때
-        }else{
-            aItems =  this.getAggregation("items");
-            
+        //view에서 items랑 core:Item 설정했을 때(_onButtonPress)
+        }else if(route == "view" && aItems){
             aItems.forEach(function (item) {
-                debugger;
                 var oItem = new StandardListItem({
                     title:  item.getText(),//보이는 값
                     selected: this.getProperty("selectedKeys").includes(item.key),
@@ -168,6 +165,8 @@ sap.ui.define([
                 this._oList.addItem(oItem);
             }.bind(this));
             
+        }else{
+            return;
         }
 
 
@@ -176,8 +175,9 @@ sap.ui.define([
     /* 이벤트 */
     //버튼 클릭 이벤트
     FilterComboBox.prototype._onButtonPress= function () {
-            this._setItems(); //view에서 dataSet했을 경우
-
+            if(this.getAggregation("items")){
+                this._setItems("view", this.getAggregation("items")); //view에서 dataSet했을 경우
+            }
             if (!this._oPopover) {
                 var oClearButton = new Button({
                     text: "Clear All",
